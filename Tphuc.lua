@@ -2370,12 +2370,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "ZyHub"
+    local i = "TphucHub"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "ZyHub"
+        local i = "TphucHub"
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2541,19 +2541,19 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "ZyHub", HidePremium = false, IntroText = "ZyHub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
+local Window = OrionLib:MakeWindow({Name = "TphucHub", HidePremium = false, IntroText = "TphucHub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
 
 
 
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "TphucHub",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://8192162908",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "TphucHub",
     Content = "đợi hub load config rồi mới sài nha",
     Image = "rbxassetid://8192162908",
     Time = 10
